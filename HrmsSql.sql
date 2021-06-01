@@ -9,6 +9,7 @@ CREATE TABLE public.employers
     company_name character varying(30) NOT NULL,
     web_adress character varying(50) NOT NULL,
     phone_number character varying(30) NOT NULL,
+    user_id integer NOT NULL,
     PRIMARY KEY (id)
 );
 
